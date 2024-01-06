@@ -1,29 +1,20 @@
-import {Button, Card, CardBody, CardFooter, Heading, Stack, Text, Image} from "@chakra-ui/react";
+import {Hide, Show, Stack} from "@chakra-ui/react";
 import {PresentationCard} from "./PresentationCard.jsx";
-import {TabsCard} from "./TabsCard.jsx";
+import {TabsBig} from "./TabsBig.jsx";
+import {TabsSmall} from "./TabsSmall.jsx";
 
 export const MainCard = () => {
 
   return (
-    <Card
-      direction={{ base: 'column', sm: 'row' }}
-      overflow='hidden'
-      variant='outline'
-    >
-      <PresentationCard />
-
-      <Stack>
-        <CardBody>
-          <TabsCard />
-        </CardBody>
-
-        <CardFooter>
-          <Button variant='solid' colorScheme='blue'>
-            Buy Latte
-          </Button>
-        </CardFooter>
-      </Stack>
-    </Card>
+    <Stack spacing={8} direction='row'>
+      <Hide below='lg'>
+        <PresentationCard/>
+        <TabsBig/>
+      </Hide>
+      <Show below='lg'>
+        <TabsSmall/>
+      </Show>
+    </Stack>
   );
 
 }
