@@ -94,6 +94,9 @@ const posts = (await getCollection("posts")).sort(function (
                 href={
                   Config.projects[project as keyof typeof Config.projects].url
                 }
+                preview={
+                  Config.projects[project as keyof typeof Config.projects].preview
+                }
                 tags={
                   Config.projects[project as keyof typeof Config.projects].tags
                 }
@@ -105,13 +108,7 @@ const posts = (await getCollection("posts")).sort(function (
 
       <article class="flex flex-col gap-8">
         <header class="flex w-full flex-row justify-between gap-2">
-          <h3 class="text-lg">Latest posts</h3>
-          <a
-            href="/posts"
-            class="text-sm text-primary underline decoration-dashed underline-offset-8"
-            rel="noreferrer"
-            >See all posts
-          </a>
+          <h3 class="text-lg">Tools and Languages</h3>
         </header>
         <section class="grid grid-cols-1 gap-4 sm:grid-cols-2 mx-auto">
           {
@@ -126,6 +123,28 @@ const posts = (await getCollection("posts")).sort(function (
                 description={post.data.description}
                 href={"/posts/" + post.slug}
               />
+            ))
+          }
+        </section>
+      </article>
+
+      <article class="flex flex-col gap-8">
+        <header class="flex w-full flex-row justify-between gap-2">
+          <h3 class="text-lg">Experience</h3>
+        </header>
+        <section class="grid grid-cols-1 gap-4 sm:grid-cols-2 mx-auto">
+          {
+            posts.map((post: any) => (
+                <FloatingBox
+                    title={post.data.title}
+                    publishedAt={post.data.publishedAt.toLocaleDateString("en-us", {
+                      year: "numeric",
+                      month: "short",
+                      day: "numeric",
+                    })}
+                    description={post.data.description}
+                    href={"/posts/" + post.slug}
+                />
             ))
           }
         </section>

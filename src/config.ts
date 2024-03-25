@@ -1,4 +1,4 @@
-import kate from "../src/assets/kate.png";
+import kate from "../src/assets/icon.png";
 
 interface IConfig {
   me: {
@@ -15,6 +15,7 @@ interface IConfig {
   projects: {
     [name: string]: {
       url: string;
+      preview: string;
       tags: string[];
     };
   };
@@ -34,17 +35,29 @@ export const Config: IConfig = {
   },
   socials: {
     twitter: "https://twitter.com/home",
-    github: "https://github.com/JohnDoe",
+    github: "https://github.com/Kate505",
     linkedin: "https://www.linkedin.com/in/katherine-delgado-1132491a8/",
   },
   projects: {
-    "996.ICU": {
-      url: "https://github.com/996icu/996.ICU",
-      tags: ["ccp", "chinese", "overwork", "labor", "996"],
+    "Calculator ReactJs": {
+      url: "https://github.com/Kate505/Calculator-React",
+      preview: "https://kate505.me/Calculator-React/",
+      tags: ["JSX", "ReactJs", "Vite"],
     },
-    Linux: {
-      url: "https://github.com/torvalds/linux",
-      tags: ["c", "kernel", "unix", "os"],
+    "Bookstore Management System": {
+      url: "https://github.com/Kate505/Libreria_Bootstrap",
+      preview: "https://kate505.me/Libreria_Bootstrap/",
+      tags: ["JavaScript", "CSS", "HTML-5"],
+    },
+    "Shortest route. Floyd's algorithm": {
+      url: "https://github.com/Kate505/Kate505-Ruta_mas_corta_Floyd_Mapa_Nicaragua",
+      preview: "",
+      tags: ["C"],
+    },
+    "Bookstore Management System .Net": {
+      url: "https://github.com/Kate505/Menu_BD_Studio_NET",
+      preview: "",
+      tags: ["Visual Basic .Net"],
     },
   },
   og: {
