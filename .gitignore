@@ -4,12 +4,8 @@ dist/
 # generated types
 .astro/
 
-.idea/
-
 # dependencies
 node_modules/
-
-.netlify/
 
 # logs
 npm-debug.log*
