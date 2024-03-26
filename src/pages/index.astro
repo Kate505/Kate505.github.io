@@ -2,7 +2,11 @@
 import Layout from "../layouts/Layout.astro";
 import FloatingBox from "../components/SmallBox.astro";
 import { Picture } from "astro:assets";
+import ToolsBox from '../components/ToolsLanguages.astro';
 import iconImage from "../assets/icon.png";
+import githubImg from "../assets/github.png";
+import twitterImg from "../assets/twitter.png";
+import linkedinImg from "../assets/linkedin.svg";
 import { Config } from "../config";
 
 const years = () => {
@@ -11,7 +15,14 @@ const years = () => {
   return now.getFullYear() - start.getFullYear();
 };
 
+const socialImages = {
+  github: githubImg,
+  twitter: twitterImg,
+  linkedin: linkedinImg
+};
+
 import { getCollection } from "astro:content";
+import * as console from "console";
 const posts = (await getCollection("posts")).sort(function (
   first: any,
   second: any
@@ -43,6 +54,12 @@ const posts = (await getCollection("posts")).sort(function (
                 {
                   Object.keys(Config.socials).map((social) => (
                     <li>
+                      <Picture
+                          src={socialImages[social]}
+                          formats={["avif", "webp"]}
+                          alt={`${social} Icon`}
+                          loading="eager"
+                      />
                       <a
                         href={
                           Config.socials[social as keyof typeof Config.socials]
@@ -110,19 +127,10 @@ const posts = (await getCollection("posts")).sort(function (
         <header class="flex w-full flex-row justify-between gap-2">
           <h3 class="text-lg">Tools and Languages</h3>
         </header>
-        <section class="grid grid-cols-1 gap-4 sm:grid-cols-2 mx-auto">
+        <section class="grid grid-cols-1 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 mx-auto">
           {
-            posts.map((post: any) => (
-              <FloatingBox
-                title={post.data.title}
-                publishedAt={post.data.publishedAt.toLocaleDateString("en-us", {
-                  year: "numeric",
-                  month: "short",
-                  day: "numeric",
-                })}
-                description={post.data.description}
-                href={"/posts/" + post.slug}
-              />
+            Object.keys(Config.tools).map((tool) => (
+                <ToolsBox icon={tool} />
             ))
           }
         </section>
@@ -133,20 +141,7 @@ const posts = (await getCollection("posts")).sort(function (
           <h3 class="text-lg">Experience</h3>
         </header>
         <section class="grid grid-cols-1 gap-4 sm:grid-cols-2 mx-auto">
-          {
-            posts.map((post: any) => (
-                <FloatingBox
-                    title={post.data.title}
-                    publishedAt={post.data.publishedAt.toLocaleDateString("en-us", {
-                      year: "numeric",
-                      month: "short",
-                      day: "numeric",
-                    })}
-                    description={post.data.description}
-                    href={"/posts/" + post.slug}
-                />
-            ))
-          }
+          Hello World
         </section>
       </article>
     </div>

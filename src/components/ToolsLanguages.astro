@@ -1,0 +1,35 @@
+---
+import {Picture} from "astro:assets";
+import githubImg from "../assets/github.png";
+import twitterImg from "../assets/twitter.png";
+import linkedinImg from "../assets/linkedin.svg";
+
+interface Props {
+    href: string;
+    icon: string;
+}
+
+const socialImages = {
+    github: githubImg,
+    twitter: twitterImg,
+    linkedin: linkedinImg
+    };
+const {href, icon} = Astro.props;
+---
+
+<div
+    class="group flex cursor-pointer flex-col gap-3 rounded-md border border-neutral p-4 transition-all duration-300 hover:-translate-y-1.5"
+    data-astro-prefetch>
+  <a href={href}>
+    <div class="flex w-full justify-between gap-3 flex-row items-start">
+      <div class="flex flex-row items-center gap-2">
+        <Picture
+            src={socialImages[icon]}
+            formats={["avif", "webp"]}
+            alt={`${icon} Icon`}
+            loading="eager"
+        />
+      </div>
+    </div>
+  </a>
+</div>

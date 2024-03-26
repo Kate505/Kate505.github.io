@@ -12,6 +12,9 @@ interface IConfig {
   socials: {
     [name: string]: string;
   };
+  tools: {
+    [name: string]: string;
+  };
   projects: {
     [name: string]: {
       url: string;
@@ -29,7 +32,7 @@ export const Config: IConfig = {
     name: "Katherine Delgado",
     job: "fullstack developer",
     started: "2022-05-19",
-    stack: "Ruby, Ruby on Rails and React js",
+    stack: "Ruby, Ruby on Rails and React JS",
     hobby: "play musical instruments like the Violin and Piano",
     projectLink: "https://github.com/Kate505",
   },
@@ -37,6 +40,11 @@ export const Config: IConfig = {
     twitter: "https://twitter.com/home",
     github: "https://github.com/Kate505",
     linkedin: "https://www.linkedin.com/in/katherine-delgado-1132491a8/",
+  },
+  tools: {
+    twitter: "",
+    github: "",
+    linkedin: "",
   },
   projects: {
     "Calculator ReactJs": {
