@@ -127,10 +127,10 @@ const posts = (await getCollection("posts")).sort(function (
         <header class="flex w-full flex-row justify-between gap-2">
           <h3 class="text-lg">Tools and Languages</h3>
         </header>
-        <section class="grid grid-cols-1 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 mx-auto">
+        <section class="grid grid-cols-4 gap-6 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-8 mx-auto">
           {
             Object.keys(Config.tools).map((tool) => (
-                <ToolsBox icon={tool} />
+                <ToolsBox icon={tool} href={Config.tools[tool as keyof typeof Config.tools]}/>
             ))
           }
         </section>
@@ -141,7 +141,7 @@ const posts = (await getCollection("posts")).sort(function (
           <h3 class="text-lg">Experience</h3>
         </header>
         <section class="grid grid-cols-1 gap-4 sm:grid-cols-2 mx-auto">
-          Hello World
+
         </section>
       </article>
     </div>
