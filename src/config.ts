@@ -1,4 +1,55 @@
 import kate from "../src/assets/icon.png";
+import githubImg from "./assets/tools/github.png";
+import rubyImg from "./assets/tools/ruby.png";
+import railsImg from "./assets/tools/rails.png";
+import javaImg from "./assets/tools/java.png";
+import javascriptImg from "./assets/tools/javascript.png";
+import cImg from "./assets/tools/c.png";
+import cppImg from "./assets/tools/cpp.png";
+import reactImg from "./assets/tools/react.png";
+import typescriptImg from "./assets/tools/typescript.png";
+import gitImg from "./assets/tools/git.png";
+import androidImg from "./assets/tools/android.png";
+import astroImg from "./assets/tools/astro.png";
+import postgresqlImg from "./assets/tools/postgresql.png";
+import nodeImg from "./assets/tools/node.png";
+import nextImg from "./assets/tools/next.png";
+import mysqlImg from "./assets/tools/mysql.png";
+import sqlServerImg from "./assets/tools/sqlServer.png";
+import bootstrapImg from "./assets/tools/bootstrap.png";
+import htmlImg from "./assets/tools/html.png";
+import handlebarsImg from "./assets/tools/handlebars.png";
+import jqueryImg from "./assets/tools/jquery.png";
+import expressImg from "./assets/tools/express.png";
+import rspecImg from "./assets/tools/rspec.png";
+import viteImg from "./assets/tools/vite.png";
+
+const socialImages = {
+  github: githubImg,
+  ruby: rubyImg,
+  rails: railsImg,
+  java: javaImg,
+  javascript: javascriptImg,
+  c: cImg,
+  cpp: cppImg,
+  react: reactImg,
+  typescript: typescriptImg,
+  git: gitImg,
+  android: androidImg,
+  astro: astroImg,
+  postgresql: postgresqlImg,
+  node: nodeImg,
+  next: nextImg,
+  mysql: mysqlImg,
+  sqlServer: sqlServerImg,
+  bootstrap: bootstrapImg,
+  html: htmlImg,
+  handlebars: handlebarsImg,
+  jquery: jqueryImg,
+  express: expressImg,
+  rspec: rspecImg,
+  vite: viteImg
+};
 
 interface IConfig {
   me: {
@@ -13,7 +64,7 @@ interface IConfig {
     [name: string]: string;
   };
   tools: {
-    [name: string]: string;
+    [name in keyof typeof socialImages]: string;
   };
   projects: {
     [name: string]: {

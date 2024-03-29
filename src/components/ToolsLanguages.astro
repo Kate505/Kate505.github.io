@@ -25,11 +25,6 @@ import expressImg from "../assets/tools/express.png";
 import rspecImg from "../assets/tools/rspec.png";
 import viteImg from "../assets/tools/vite.png";
 
-interface Props {
-    href: string;
-    icon: string;
-}
-
 const socialImages = {
     github: githubImg,
     ruby: rubyImg,
@@ -56,7 +51,12 @@ const socialImages = {
     rspec: rspecImg,
     vite: viteImg
 };
-const {href, icon} = Astro.props;
+interface Props {
+    href: string;
+    icon: keyof typeof socialImages;
+}
+
+const { href, icon } = Astro.props as Props;
 ---
 
 <div

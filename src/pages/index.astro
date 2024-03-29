@@ -16,20 +16,12 @@ const years = () => {
   return now.getFullYear() - start.getFullYear();
 };
 
-const socialImages = {
+const socials = {
   github: githubImg,
   twitter: twitterImg,
   linkedin: linkedinImg
 };
 
-import { getCollection } from "astro:content";
-import * as console from "console";
-const posts = (await getCollection("posts")).sort(function (
-  first: any,
-  second: any
-) {
-  return second.data.publishedAt.getTime() - first.data.publishedAt.getTime();
-});
 ---
 
 <Layout>
@@ -56,7 +48,7 @@ const posts = (await getCollection("posts")).sort(function (
                   Object.keys(Config.socials).map((social) => (
                     <li>
                       <Picture
-                          src={socialImages[social]}
+                          src={socials[social as keyof typeof socials]}
                           formats={["avif", "webp"]}
                           alt={`${social} Icon`}
                           loading="eager"
@@ -131,7 +123,7 @@ const posts = (await getCollection("posts")).sort(function (
         <section class="grid grid-cols-4 gap-6 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-8 items-stretch justify-center">
           {
             Object.keys(Config.tools).map((tool) => (
-                <ToolsBox icon={tool} href={Config.tools[tool as keyof typeof Config.tools]}/>
+                <ToolsBox icon={tool as keyof typeof Config.tools} href={Config.tools[tool as keyof typeof Config.tools]}/>
             ))
           }
         </section>
