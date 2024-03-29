@@ -63,8 +63,8 @@ const {href, icon} = Astro.props;
     class="group flex cursor-pointer flex-col gap-3 rounded-md border border-neutral p-4 transition-all duration-300 hover:-translate-y-1.5"
     data-astro-prefetch>
   <a href={href}>
-    <div class="flex w-full justify-between gap-3 flex-row items-start">
-      <div class="flex flex-row items-center gap-2">
+    <div class="flex w-full justify-center gap-3 flex-row items-center">
+      <div class="flex flex-row items-center gap-2 justify-center">
         <Picture
             src={socialImages[icon]}
             formats={["avif", "webp"]}

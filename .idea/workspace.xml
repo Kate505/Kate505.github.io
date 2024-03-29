@@ -5,35 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b98818dd-a764-4fd8-b66f-92e59e6a54cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/android.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/astro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/bootstrap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/cpp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/css.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/express.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/git.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/handlebars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/html.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/java.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/javascript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/jquery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/mysql.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/node.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/postgresql.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/rails.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/react.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/rspec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/ruby.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/sqlServer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/typescript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/vite.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostBox.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpBox.astro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ToolsLanguages.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToolsLanguages.astro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/posts/lorem-ipsum-2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/posts/lorem-ipsum.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Layout.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Layout.astro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/posts/[slug].astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/posts/index.astro" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +153,7 @@
       <workItem from="1711328500820" duration="5903000" />
       <workItem from="1711419287719" duration="6043000" />
       <workItem from="1711505241523" duration="1240000" />
-      <workItem from="1711660623391" duration="5668000" />
+      <workItem from="1711660623391" duration="15412000" />
     </task>
     <servers />
   </component>

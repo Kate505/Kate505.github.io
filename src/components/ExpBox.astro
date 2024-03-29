@@ -1,0 +1,39 @@
+---
+interface Props {
+    title: string;
+    occupation: string;
+    details: string[];
+    languages?: string[];
+}
+
+const {title, occupation, details, languages} = Astro.props;
+---
+<div class="group flex cursor-pointer flex-col gap-2 rounded-md border border-neutral p-4 transition-all duration-300 hover:-translate-y-1.5"
+     data-astro-prefetch>
+  <div class="flex w-full justify-between gap-2 flex-row items-center pb-5">
+    <p class="text-base-content font-semibold">{occupation}</p>
+    <div class="flex flex-row items-center gap-4">
+      <p class="decoration-4">{title}</p>
+    </div>
+  </div>
+
+  <ul class="list-disc ps-10">
+      {
+          details.map((item) => (
+              <li class="font-normal w-auto sm:w-[85%] md:w-[90%]">
+                  {item}
+              </li>
+          ))
+      }
+  </ul>
+
+    {
+        languages && (
+            <div class="py-8 flex flex-row flex-wrap gap-2">
+                {languages.map((item) => (
+                    <div class="badge badge-neutral">{item}</div>
+                ))}
+            </div>
+        )
+    }
+</div>

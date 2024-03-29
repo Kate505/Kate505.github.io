@@ -25,6 +25,13 @@ interface IConfig {
   og: {
     image: string;
   };
+  exp: {
+    [range_date: string]: {
+      occupation: string;
+      languages: string[],
+      details: string[];
+    }
+  };
 }
 
 export const Config: IConfig = {
@@ -92,4 +99,26 @@ export const Config: IConfig = {
   og: {
     image: kate.src,
   },
+  exp: {
+    "2022 - Now": {
+      occupation: "Junior Software Developer",
+      languages: ["Ruby", "Ruby on Rails", "RSpec", "JavaScript", "React JS", "Next JS", "Bootstrap"],
+      details: [
+        "Learning and developing software skills",
+        "Take charge of small projects such as developing control panels and migrating to new web technologies",
+        "Developing new functionalities such as new screens in the project",
+        "Fixing Bugs on the main project",
+        "I started as an intern learning about workflow and good practices when programming"
+      ]
+    },
+    "2020 - 2022": {
+      occupation: "Technology Enthusiast and Computer Engineering Student",
+      languages: ["C", "C++", "HTML", "CSS", "JavaScript", "Visual Basic .Net", "Arduino"],
+      details: [
+        "I learned about web development, frameworks and new technologies",
+        "Computer Engineering Student at UNI-Nicaragua",
+        "I learned about programming principles and logic"
+      ]
+    }
+  }
 };

@@ -44,9 +44,9 @@ const currentPath = Astro.url.pathname;
       class="mx-auto flex min-h-screen max-w-4xl flex-col gap-9 px-10 py-8 md:gap-20 md:py-16"
     >
       <header
-        class="flex w-full flex-col gap-3 md:gap-2 md:flex-row md:justify-between pb-5 md:pb-0"
+        class="text-xl flex w-full flex-col gap-3 md:gap-2 md:flex-row md:justify-between pb-5 md:pb-0"
       >
-        <a href="/" class="text-xl">{Config.me.name}</a>
+        {`<${Config.me.name} | Nicaragua />`}
       </header>
       <slot />
     </div>
