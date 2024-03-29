@@ -5,4 +5,6 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   prefetch: true,
   integrations: [tailwind()],
+  site: 'https://Kate505.github.io',
+  base: 'my-portfolio',
 });
