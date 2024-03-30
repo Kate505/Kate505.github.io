@@ -6,5 +6,4 @@ export default defineConfig({
   prefetch: true,
   integrations: [tailwind()],
   site: 'https://Kate505.github.io',
-  base: 'my-portfolio',
 });

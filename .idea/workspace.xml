@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b98818dd-a764-4fd8-b66f-92e59e6a54cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
     "nodejs_package_manager_path": "npm",
     "npm.dev.executor": "Run",
     "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "C:\\Users\\ksdel\\Documents\\my-portfolio\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\ksdel\\Documents\\Kate505.github.io\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -146,6 +145,7 @@
       <workItem from="1711419287719" duration="6043000" />
       <workItem from="1711505241523" duration="1240000" />
       <workItem from="1711660623391" duration="27724000" />
+      <workItem from="1711761803068" duration="646000" />
     </task>
     <servers />
   </component>
