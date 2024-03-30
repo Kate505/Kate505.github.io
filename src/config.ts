@@ -95,9 +95,10 @@ export const Config: IConfig = {
     projectLink: "https://github.com/Kate505",
   },
   socials: {
-    twitter: "https://twitter.com/home",
+    twitter: "https://twitter.com/KateS505",
     github: "https://github.com/Kate505",
     linkedin: "https://www.linkedin.com/in/katherine-delgado-1132491a8/",
+    gmail: "mailto:katherinesofiadl@gmail.com"
   },
   tools: {
     git: "https://git-scm.com",
@@ -134,7 +135,7 @@ export const Config: IConfig = {
     "Bookstore Management System": {
       url: "https://github.com/Kate505/Libreria_Bootstrap",
       preview: "https://kate505.me/Libreria_Bootstrap/",
-      tags: ["JavaScript", "CSS", "HTML-5"],
+      tags: ["JavaScript", "CSS", "HTML-5", "MySQL"],
     },
     "Shortest route. Floyd's algorithm": {
       url: "https://github.com/Kate505/Kate505-Ruta_mas_corta_Floyd_Mapa_Nicaragua",
@@ -153,22 +154,22 @@ export const Config: IConfig = {
   exp: {
     "2022 - Now": {
       occupation: "Junior Software Developer",
-      languages: ["Ruby", "Ruby on Rails", "RSpec", "JavaScript", "React JS", "Next JS", "Bootstrap"],
+      languages: ["Ruby", "Ruby on Rails", "RSpec", "PostgreSQL", "JavaScript", "React JS", "Next JS", "Bootstrap"],
       details: [
-        "Learning and developing software skills",
-        "Take charge of small projects such as developing control panels and migrating to new web technologies",
-        "Developing new functionalities such as new screens in the project",
-        "Fixing Bugs on the main project",
-        "I started as an intern learning about workflow and good practices when programming"
+        "Learning and developing software skills.",
+        "Take charge of small projects such as developing dashboards and migrating to new web technologies.",
+        "Developing new functionalities such as new screens in the project.",
+        "Fixing Bugs on the main project.",
+        "I started as an intern learning about workflow and good practices when programming."
       ]
     },
     "2020 - 2022": {
       occupation: "Technology Enthusiast and Computer Engineering Student",
       languages: ["C", "C++", "HTML", "CSS", "JavaScript", "Visual Basic .Net", "Arduino"],
       details: [
-        "I learned about web development, frameworks and new technologies",
-        "Computer Engineering Student at UNI-Nicaragua",
-        "I learned about programming principles and logic"
+        "I learned about web development, frameworks and new technologies.",
+        "Computer Engineering Student at UNI-Nicaragua.",
+        "I learned about programming principles and logic."
       ]
     }
   }

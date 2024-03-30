@@ -20,7 +20,7 @@ const {title, occupation, details, languages} = Astro.props;
   <ul class="list-disc ps-10">
       {
           details.map((item) => (
-              <li class="font-normal w-auto sm:w-[85%] md:w-[90%]">
+              <li class="font-normal text-justify">
                   {item}
               </li>
           ))
