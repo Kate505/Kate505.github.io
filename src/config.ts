@@ -152,7 +152,7 @@ export const Config: IConfig = {
     image: kate.src,
   },
   exp: {
-    "2022 - Now": {
+    "2023 - Now": {
       occupation: "Junior Software Developer",
       languages: ["Ruby", "Ruby on Rails", "RSpec", "PostgreSQL", "JavaScript", "React JS", "Next JS", "Bootstrap"],
       details: [
@@ -163,7 +163,7 @@ export const Config: IConfig = {
         "I started as an intern learning about workflow and good practices when programming."
       ]
     },
-    "2020 - 2022": {
+    "2020 - 2023": {
       occupation: "Technology Enthusiast and Computer Engineering Student",
       languages: ["C", "C++", "HTML", "CSS", "JavaScript", "Visual Basic .Net", "Arduino"],
       details: [
