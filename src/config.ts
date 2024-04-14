@@ -129,12 +129,12 @@ export const Config: IConfig = {
   projects: {
     "Calculator ReactJs": {
       url: "https://github.com/Kate505/Calculator-React",
-      preview: "https://kate505.me/Calculator-React/",
+      preview: "https://kate505.github.io/Calculator-React/",
       tags: ["JSX", "ReactJs", "Vite"],
     },
     "Bookstore Management System": {
       url: "https://github.com/Kate505/Libreria_Bootstrap",
-      preview: "https://kate505.me/Libreria_Bootstrap/",
+      preview: "https://kate505.github.io/Libreria_Bootstrap/",
       tags: ["JavaScript", "CSS", "HTML-5", "MySQL"],
     },
     "Shortest route. Floyd's algorithm": {
