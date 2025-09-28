@@ -9,6 +9,7 @@ import githubImg from "../assets/github.png";
 import twitterImg from "../assets/twitter.png";
 import linkedinImg from "../assets/linkedin.png";
 import gmailImg from "../assets/gmail.png";
+import documentImg from "../assets/document.png";
 import { Config } from "../config";
 
 const years = () => {
@@ -22,6 +23,7 @@ const socials = {
   twitter: twitterImg,
   linkedin: linkedinImg,
   gmail: gmailImg,
+  'Download CV': documentImg
 };
 
 ---
@@ -60,6 +62,7 @@ const socials = {
                           Config.socials[social as keyof typeof Config.socials]
                         }
                         rel="noreferrer"
+                        download
                         target="_blank"
                       >
                         {social.charAt(0).toUpperCase() + social.slice(1)}

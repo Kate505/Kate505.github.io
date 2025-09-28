@@ -23,6 +23,7 @@ import jqueryImg from "./assets/tools/jquery.png";
 import expressImg from "./assets/tools/express.png";
 import rspecImg from "./assets/tools/rspec.png";
 import viteImg from "./assets/tools/vite.png";
+import tailwind from "@astrojs/tailwind";
 
 const socialImages = {
   github: githubImg,
@@ -48,7 +49,10 @@ const socialImages = {
   jquery: jqueryImg,
   express: expressImg,
   rspec: rspecImg,
-  vite: viteImg
+  vite: viteImg,
+  docker: viteImg,
+  tailwind: viteImg,
+  material: viteImg,
 };
 
 interface IConfig {
@@ -98,33 +102,37 @@ export const Config: IConfig = {
     twitter: "https://twitter.com/KateS505",
     github: "https://github.com/Kate505",
     linkedin: "https://www.linkedin.com/in/katherine-delgado-1132491a8/",
-    gmail: "mailto:katherinesofiadl@gmail.com"
+    gmail: "mailto:katherinesofiadl@gmail.com",
+    'Download CV':  "../../public/docs/CV_Katherine_Delgado_en.pdf"
   },
   tools: {
+    c: "https://devdocs.io/c/",
+    cpp: "https://devdocs.io/cpp/",
+    ruby: "https://www.ruby-lang.org",
+    rails: "https://rubyonrails.org",
+    rspec: "https://rspec.info/",
+    react: "https://react.dev/learn",
+    astro: "https://astro.build/",
+    node: "https://nodejs.org",
+    next: "https://nextjs.org/",
+    vite: "https://vitejs.dev/",
+    express: "https://expressjs.com/",
+    java: "https://www.java.com",
+    typescript: "https://www.typescriptlang.org/",
+    javascript: "https://developer.mozilla.org/es/docs/Web/JavaScript",
+    jquery: "https://jquery.com/",
+    postgresql: "https://www.postgresql.org/",
+    mysql: "https://www.mysql.com/",
+    docker: "https://www.docker.com/",
+    sqlServer: "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
     git: "https://git-scm.com",
     github: "https://docs.github.com",
     html: "",
     bootstrap: "https://getbootstrap.com/",
-    jquery: "https://jquery.com/",
-    typescript: "https://www.typescriptlang.org/",
-    javascript: "https://developer.mozilla.org/es/docs/Web/JavaScript",
-    node: "https://nodejs.org",
-    express: "https://expressjs.com/",
-    next: "https://nextjs.org/",
-    react: "https://react.dev/learn",
-    vite: "https://vitejs.dev/",
-    astro: "https://astro.build/",
     handlebars: "https://handlebarsjs.com/",
-    ruby: "https://www.ruby-lang.org",
-    rails: "https://rubyonrails.org",
-    rspec: "https://rspec.info/",
-    java: "https://www.java.com",
+    tailwind: "https://tailwindcss.com/",
+    material: "https://mui.com/material-ui/",
     android: "https://developer.android.com/studio?gad_source=1&gclid=Cj0KCQjwqpSwBhClARIsADlZ_TkLeizKsu0XhYBH1xJtK12qYjXy3i6kM0bE2BEBXH-95jgd0abVHuwaAkPeEALw_wcB&gclsrc=aw.ds&hl=es-419",
-    c: "https://devdocs.io/c/",
-    cpp: "https://devdocs.io/cpp/",
-    postgresql: "https://www.postgresql.org/",
-    mysql: "https://www.mysql.com/",
-    sqlServer: "https://www.microsoft.com/en-us/sql-server/sql-server-downloads"
   },
   projects: {
     "Calculator ReactJs": {
@@ -153,13 +161,13 @@ export const Config: IConfig = {
   },
   exp: {
     "2023 - Now": {
-      occupation: "Junior Software Developer",
+      occupation: "Software Developer",
       languages: ["Ruby", "Ruby on Rails", "RSpec", "PostgreSQL", "JavaScript", "React JS", "Next JS", "Bootstrap"],
       details: [
-        "Learning and developing software skills.",
+        "Learning and developing software skills with design patterns and clean code.",
         "Take charge of small projects such as developing dashboards and migrating to new web technologies.",
-        "Developing new functionalities such as new screens in the project.",
-        "Fixing Bugs on the main project.",
+        "Developing new functionalities such as new screens.",
+        "Debugging and Fixing Bugs.",
         "I started as an intern learning about workflow and good practices when programming."
       ]
     },
