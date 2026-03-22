@@ -51,6 +51,13 @@ const socials = {
                 {
                   Object.keys(Config.socials).map((social) => (
                     <li>
+                      {(() => {
+                        const href =
+                          Config.socials[social as keyof typeof Config.socials];
+                        const isDownloadCv = social === "Download CV";
+
+                        return (
+                          <>
                       <Picture
                           src={socials[social as keyof typeof socials]}
                           formats={["avif", "webp"]}
@@ -58,15 +65,16 @@ const socials = {
                           loading="eager"
                       />
                       <a
-                        href={
-                          Config.socials[social as keyof typeof Config.socials]
-                        }
-                        rel="noreferrer"
-                        download
-                        target="_blank"
+                        href={href}
+                        rel={isDownloadCv ? undefined : "noreferrer"}
+                        download={isDownloadCv ? "Katherine_Delgado_CV.pdf" : undefined}
+                        target={isDownloadCv ? undefined : "_blank"}
                       >
                         {social.charAt(0).toUpperCase() + social.slice(1)}
                       </a>
+                          </>
+                        );
+                      })()}
                     </li>
                   ))
                 }

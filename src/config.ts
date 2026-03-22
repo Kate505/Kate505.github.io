@@ -23,36 +23,52 @@ import jqueryImg from "./assets/tools/jquery.png";
 import expressImg from "./assets/tools/express.png";
 import rspecImg from "./assets/tools/rspec.png";
 import viteImg from "./assets/tools/vite.png";
-import tailwind from "@astrojs/tailwind";
+import cypressImg from "./assets/tools/cypress.png";
+import gitlabImg from "./assets/tools/gitlab.png";
+import sentryImg from "./assets/tools/sentry.png";
+import authentikImg from "./assets/tools/authentik.png";
+import minioImg from "./assets/tools/minio.png";
+import jasperImg from "./assets/tools/jaspersoft.png";
+import tailwindImg from "./assets/tools/tailwind.png";
+import materialImg from "./assets/tools/material.png";
+import dockerImg from "./assets/tools/docker.png";
+import turboImg from "./assets/tools/turbo.png";
 
 const socialImages = {
-  github: githubImg,
   ruby: rubyImg,
   rails: railsImg,
-  java: javaImg,
-  javascript: javascriptImg,
-  c: cImg,
-  cpp: cppImg,
-  react: reactImg,
-  typescript: typescriptImg,
-  git: gitImg,
-  android: androidImg,
-  astro: astroImg,
-  postgresql: postgresqlImg,
-  node: nodeImg,
-  next: nextImg,
-  mysql: mysqlImg,
-  sqlServer: sqlServerImg,
-  bootstrap: bootstrapImg,
-  html: htmlImg,
-  handlebars: handlebarsImg,
-  jquery: jqueryImg,
-  express: expressImg,
+  turbo: turboImg,
   rspec: rspecImg,
+  node: nodeImg,
+  react: reactImg,
   vite: viteImg,
-  docker: viteImg,
-  tailwind: viteImg,
-  material: viteImg,
+  next: nextImg,
+  cypress: cypressImg,
+  astro: astroImg,
+  javascript: javascriptImg,
+  jquery: jqueryImg,
+  typescript: typescriptImg,
+  express: expressImg,
+  c: cImg,
+  gitlabcicd: gitlabImg,
+  github: githubImg,
+  sentry: sentryImg,
+  authentik: authentikImg,
+  minio: minioImg,
+  jaspersoft: jasperImg,
+  cpp: cppImg,
+  java: javaImg,
+  postgresql: postgresqlImg,
+  mysql: mysqlImg,
+  docker: dockerImg,
+  sqlServer: sqlServerImg,
+  git: gitImg,
+  html: htmlImg,
+  bootstrap: bootstrapImg,
+  handlebars: handlebarsImg,
+  tailwind: tailwindImg,
+  material: materialImg,
+  android: androidImg,
 };
 
 interface IConfig {
@@ -103,30 +119,37 @@ export const Config: IConfig = {
     github: "https://github.com/Kate505",
     linkedin: "https://www.linkedin.com/in/katherine-delgado-1132491a8/",
     gmail: "mailto:katherinesofiadl@gmail.com",
-    'Download CV':  "../../public/docs/CV_Katherine_Delgado_en.pdf"
+    "Download CV": "/docs/CV_Katherine_Delgado_en.pdf"
   },
   tools: {
-    c: "https://devdocs.io/c/",
-    cpp: "https://devdocs.io/cpp/",
     ruby: "https://www.ruby-lang.org",
     rails: "https://rubyonrails.org",
+    turbo: "https://turbo.hotwired.dev/",
     rspec: "https://rspec.info/",
-    react: "https://react.dev/learn",
-    astro: "https://astro.build/",
     node: "https://nodejs.org",
-    next: "https://nextjs.org/",
+    react: "https://react.dev/learn",
     vite: "https://vitejs.dev/",
-    express: "https://expressjs.com/",
-    java: "https://www.java.com",
-    typescript: "https://www.typescriptlang.org/",
+    next: "https://nextjs.org/",
+    cypress: "https://www.cypress.io/",
+    astro: "https://astro.build/",
     javascript: "https://developer.mozilla.org/es/docs/Web/JavaScript",
     jquery: "https://jquery.com/",
+    typescript: "https://www.typescriptlang.org/",
+    express: "https://expressjs.com/",
+    c: "https://devdocs.io/c/",
+    gitlabcicd: "https://about.gitlab.com/solutions/continuous-integration/",
+    github: "https://docs.github.com",
+    sentry: "https://sentry.io/",
+    authentik: "https://goauthentik.io/",
+    minio: "https://www.min.io/",
+    jaspersoft: "https://www.jaspersoft.com/",
+    cpp: "https://devdocs.io/cpp/",
+    java: "https://www.java.com",
     postgresql: "https://www.postgresql.org/",
     mysql: "https://www.mysql.com/",
     docker: "https://www.docker.com/",
     sqlServer: "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
     git: "https://git-scm.com",
-    github: "https://docs.github.com",
     html: "",
     bootstrap: "https://getbootstrap.com/",
     handlebars: "https://handlebarsjs.com/",
@@ -141,9 +164,9 @@ export const Config: IConfig = {
       tags: ["JSX", "ReactJs", "Vite"],
     },
     "Bookstore Management System": {
-      url: "https://github.com/Kate505/Libreria_Bootstrap",
-      preview: "https://kate505.github.io/Libreria_Bootstrap/",
-      tags: ["JavaScript", "CSS", "HTML-5", "MySQL"],
+      url: "https://github.com/Kate505/sistema_libreria",
+      preview: "https://github.com/Kate505/sistema_libreria",
+      tags: ["Ruby", "Ruby on Rails", "Tailwind", "DaisyUI", "PostgreSQL", "Docker", "CI/CD"],
     },
     "Shortest route. Floyd's algorithm": {
       url: "https://github.com/Kate505/Kate505-Ruta_mas_corta_Floyd_Mapa_Nicaragua",
@@ -160,24 +183,34 @@ export const Config: IConfig = {
     image: kate.src,
   },
   exp: {
-    "2023 - Now": {
-      occupation: "Software Developer",
-      languages: ["Ruby", "Ruby on Rails", "RSpec", "PostgreSQL", "JavaScript", "React JS", "Next JS", "Bootstrap"],
+    "2026 - Now": {
+      occupation: "JavaScript Team Technical Lead",
+      languages: ["JavaScript", "TypeScript", "React.js", "Next.js", "Cypress", "Docker", "GitLab CI/CD"],
       details: [
-        "Learning and developing software skills with design patterns and clean code.",
-        "Take charge of small projects such as developing dashboards and migrating to new web technologies.",
-        "Developing new functionalities such as new screens.",
-        "Debugging and Fixing Bugs.",
-        "I started as an intern learning about workflow and good practices when programming."
+        "Leading the development team in executing frontend and full-stack projects using Next.js and React.",
+        "Establishing rigorous QA and Code Review processes to guarantee Clean Code standards and optimal performance.",
+        "Designing and maintaining GitLab CI/CD pipelines, automating linting, building, and E2E testing with Cypress.",
+        "Creating and optimizing Dockerfiles to generate lightweight, secure, and scalable production images."
       ]
     },
-    "2020 - 2023": {
-      occupation: "Technology Enthusiast and Computer Engineering Student",
-      languages: ["C", "C++", "HTML", "CSS", "JavaScript", "Visual Basic .Net", "Arduino"],
+    "2023 - 2025": {
+      occupation: "Ruby on Rails Full Stack Software Developer",
+      languages: ["Ruby", "Ruby on Rails", "PostgreSQL", "React.js", "Next.js", "RSpec", "JasperReports"],
       details: [
-        "I learned about web development, frameworks and new technologies.",
-        "Computer Engineering Student at UNI-Nicaragua.",
-        "I learned about programming principles and logic."
+        "Developed and maintained the Fleming Hospital Management System, a critical system used nationwide.",
+        "Implemented backend features and optimized complex SQL queries in PostgreSQL, significantly improving system performance.",
+        "Created real-time frontend dashboards using Ruby on Rails, React, and Next.js.",
+        "Refactored legacy code by applying MVC design patterns and development best practices.",
+        "Generated analytical and operational reports using JasperReports/Jaspersoft."
+      ]
+    },
+    "2019 - 2024": {
+      occupation: "Computer Engineering Student (Graduate)",
+      languages: ["Java", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "SQL"],
+      details: [
+        "Graduated with a Bachelor's Degree in Computer Engineering from Universidad Nacional de Ingeniería (UNI).",
+        "Acquired a solid foundation in programming logic, MVC architecture, RESTful APIs, and design patterns.",
+        "Developed academic and foundational projects focusing on modern web development and relational databases."
       ]
     }
   }
