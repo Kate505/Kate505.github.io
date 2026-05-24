@@ -27,6 +27,7 @@ import cypressImg from "./assets/tools/cypress.png";
 import gitlabImg from "./assets/tools/gitlab.png";
 import sentryImg from "./assets/tools/sentry.png";
 import authentikImg from "./assets/tools/authentik.png";
+import keycloakImg from "./assets/tools/keycloak.png";
 import minioImg from "./assets/tools/minio.png";
 import jasperImg from "./assets/tools/jaspersoft.png";
 import tailwindImg from "./assets/tools/tailwind.png";
@@ -54,6 +55,7 @@ const socialImages = {
   github: githubImg,
   sentry: sentryImg,
   authentik: authentikImg,
+  keycloak: keycloakImg,
   minio: minioImg,
   jaspersoft: jasperImg,
   cpp: cppImg,
@@ -83,6 +85,10 @@ interface IConfig {
   socials: {
     [name: string]: string;
   };
+  cv: {
+    en: string;
+    es: string;
+  };
   tools: {
     [name in keyof typeof socialImages]: string;
   };
@@ -109,8 +115,8 @@ export const Config: IConfig = {
   me: {
     name: "Katherine Delgado",
     job: "fullstack developer",
-    started: "2022-05-19",
-    stack: "Ruby, Ruby on Rails and React JS",
+    started: "2023-05-19",
+    stack: "Ruby, Ruby on Rails, and NextJs",
     hobby: "play musical instruments like the Violin and Piano",
     projectLink: "https://github.com/Kate505",
   },
@@ -119,7 +125,10 @@ export const Config: IConfig = {
     github: "https://github.com/Kate505",
     linkedin: "https://www.linkedin.com/in/katherine-delgado-1132491a8/",
     gmail: "mailto:katherinesofiadl@gmail.com",
-    "Download CV": "/docs/CV_Katherine_Delgado_en.pdf"
+  },
+  cv: {
+    en: "/docs/CV_Katherine_Delgado_en.pdf",
+    es: "/docs/Cv_Katherine_Delgado_es.pdf",
   },
   tools: {
     ruby: "https://www.ruby-lang.org",
@@ -141,6 +150,7 @@ export const Config: IConfig = {
     github: "https://docs.github.com",
     sentry: "https://sentry.io/",
     authentik: "https://goauthentik.io/",
+    keycloak: "https://www.keycloak.org/",
     minio: "https://www.min.io/",
     jaspersoft: "https://www.jaspersoft.com/",
     cpp: "https://devdocs.io/cpp/",
@@ -158,20 +168,25 @@ export const Config: IConfig = {
     android: "https://developer.android.com/studio?gad_source=1&gclid=Cj0KCQjwqpSwBhClARIsADlZ_TkLeizKsu0XhYBH1xJtK12qYjXy3i6kM0bE2BEBXH-95jgd0abVHuwaAkPeEALw_wcB&gclsrc=aw.ds&hl=es-419",
   },
   projects: {
-    "Calculator ReactJs": {
-      url: "https://github.com/Kate505/Calculator-React",
-      preview: "https://kate505.github.io/Calculator-React/",
-      tags: ["JSX", "ReactJs", "Vite"],
-    },
     "Bookstore Management System": {
       url: "https://github.com/Kate505/sistema_libreria",
       preview: "https://github.com/Kate505/sistema_libreria",
       tags: ["Ruby", "Ruby on Rails", "Tailwind", "DaisyUI", "PostgreSQL", "Docker", "CI/CD"],
     },
+    "Qwen3 TTS": {
+      url: "https://github.com/Kate505/tts-dashboard",
+      preview: "https://github.com/Kate505/tts-dashboard",
+      tags: ["Python", "Qwen 3 TTS", "NextJS", "IA"],
+    },
     "Shortest route. Floyd's algorithm": {
       url: "https://github.com/Kate505/Kate505-Ruta_mas_corta_Floyd_Mapa_Nicaragua",
       preview: "",
       tags: ["C"],
+    },
+    "Calculator ReactJs": {
+      url: "https://github.com/Kate505/Calculator-React",
+      preview: "https://kate505.github.io/Calculator-React/",
+      tags: ["JSX", "ReactJs", "Vite"],
     },
     "Bookstore Management System .Net": {
       url: "https://github.com/Kate505/Menu_BD_Studio_NET",

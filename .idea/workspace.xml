@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b98818dd-a764-4fd8-b66f-92e59e6a54cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bun.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/Cv_Katherine_Delgado_es.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/tools/keycloak.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/CV_Katherine_Delgado_en.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/CV_Katherine_Delgado_en.pdf" afterDir="false" />
@@ -17,28 +20,75 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="cae811ee-9ae2-4b8c-a3ff-45be8681d54a" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="6df5b2a2-8e5c-4e6b-85d7-6211a7bbf7aa" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="status" value="Completed" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="25c1f47d-a2e8-4fef-a609-9a08b2c2d5d6" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="cae811ee-9ae2-4b8c-a3ff-45be8681d54a" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="gpt-5.2-codex" />
+            <option name="status" value="Completed" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
+  </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
+      <entry key="_/home/katherinedl/sistemas/Kate505.github.io" value="3E9AbJOyUlcvPdHyEXp8iCPgiW7" />
       <entry key="_C:/Users/kate/Documents/GitHub/Kate505.github.io" value="2e9rp1a5MyK840gI8YK6MwAPtIc" />
     </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="agent-panel" value="Auto" />
+      <entry key="chat-panel" value="Auto" />
+    </selectedModels>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Kate505"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kate505&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Kate505/Kate505.github.io.git",
-    "accountId": "c2dfc7ca-4630-469b-8b59-3ad69bb49da9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kate505/Kate505.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;c2dfc7ca-4630-469b-8b59-3ad69bb49da9&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -48,6 +98,20 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Ask" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,41 +119,45 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.preferred.runtime.type.id": "node",
     "js.buildTools.gulp.gulp_package_dir": "",
-    "last_opened_file_path": "C:/Users/kate/Documents/GitHub/Kate505.github.io/src/assets/tools",
+    "last_opened_file_path": "/home/katherinedl/sistemas/Kate505.github.io/src/assets/tools",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs.jest.jest_package": "",
-    "nodejs_interpreter_path": "node",
+    "nodejs_interpreter_path": "/home/katherinedl/.local/share/mise/installs/node/latest/bin/node",
     "nodejs_package_manager_path": "npm",
     "npm.dev.executor": "Run",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "C:\\Users\\kate\\Documents\\GitHub\\Kate505.github.io\\node_modules\\typescript\\lib",
+    "settings.editor.selected.configurable": "settings.sync",
+    "ts.external.directory.path": "/home/katherinedl/sistemas/Kate505.github.io/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/tools" />
       <recent name="C:\Users\kate\Documents\GitHub\Kate505.github.io\src\assets\tools" />
       <recent name="\\wsl.localhost\Ubuntu\home\kate\Kate505.github.io\src\assets\tools" />
       <recent name="C:\Users\ksdel\Documents\Kate505.github.io\src\assets\tools" />
       <recent name="C:\Users\ksdel\Documents\Kate505.github.io\src\assets" />
-      <recent name="C:\Users\ksdel\Documents\Kate505.github.io\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/docs" />
       <recent name="C:\Users\kate\Documents\GitHub\Kate505.github.io\public\docs" />
       <recent name="C:\Users\kate\Documents\GitHub\Kate505.github.io\src\assets\tools" />
       <recent name="\\wsl.localhost\Ubuntu\home\kate\Kate505.github.io\public\docs" />
       <recent name="\\wsl.localhost\Ubuntu\home\kate\Kate505.github.io\src\assets" />
-      <recent name="C:\Users\ksdel\Documents\Kate505.github.io\src\assets" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -164,7 +232,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.23567.141" />
       </set>
     </attachedChunks>
   </component>
@@ -186,6 +254,10 @@
       <workItem from="1711764215162" duration="10719000" />
       <workItem from="1711946489388" duration="210000" />
       <workItem from="1759019089459" duration="8263000" />
+      <workItem from="1779577442727" duration="410000" />
+      <workItem from="1779579521800" duration="410000" />
+      <workItem from="1779580109414" duration="354000" />
+      <workItem from="1779580482977" duration="1150000" />
     </task>
     <servers />
   </component>
