@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b98818dd-a764-4fd8-b66f-92e59e6a54cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bun.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/Cv_Katherine_Delgado_es.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tools/keycloak.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/CV_Katherine_Delgado_en.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/CV_Katherine_Delgado_en.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ToolsLanguages.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToolsLanguages.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.astro" afterDir="false" />
+    <list default="true" id="b98818dd-a764-4fd8-b66f-92e59e6a54cc" name="Changes" comment="Add Keycloak tool image and update CV download options in config">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,8 +249,17 @@
       <workItem from="1779577442727" duration="410000" />
       <workItem from="1779579521800" duration="410000" />
       <workItem from="1779580109414" duration="354000" />
-      <workItem from="1779580482977" duration="1150000" />
+      <workItem from="1779580482977" duration="1456000" />
     </task>
+    <task id="LOCAL-00001" summary="Add Keycloak tool image and update CV download options in config">
+      <option name="closed" value="true" />
+      <created>1779581687869</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779581687869</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +267,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add Keycloak tool image and update CV download options in config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Keycloak tool image and update CV download options in config" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
